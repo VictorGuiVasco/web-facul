@@ -16,21 +16,61 @@
 </head>
 
 <body>
-  <div>
-    <header class="page-header">
+  <div class="container">
+    <header class="header">
       <div class="top-bar-container">
-        <div>
-          <h1 class="logo-text">Saúde Connect</h1>
+        <h1>Saude Connect</h1>
 
-          <img src={backIcon} alt="Voltar" />
-        </div>
+        <a href="index.html" class="primary-button">Voltar</a>
       </div>
 
       <div class="header-content">
-        <strong>Faça o cadastro do seu pequenino</strong>
-
+        <h1>Faça o cadastro sua crinça</h1>
       </div>
     </header>
+
+    <div class="form-container">
+      <form>
+        <h1>Dados da Criança</h1>
+        <div class="input-block">
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="input-block">
+          <label for="age">Idade</label>
+          <input type="number" name="age" id="age">
+        </div>
+        <div class="input-block">
+          <label for="sex">Sexo</label>
+          <input type="number" name="sex" id="sex">
+        </div>
+
+        <br>
+
+        <h1>Dados da Responsável</h1>
+        <div class="input-block">
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <div class="input-block">
+          <label for="phone">Telefone</label>
+          <input type="text" name="phone" id="phone">
+        </div>
+
+        <div class="input-block">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <div class="input-block">
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password">
+        </div>
+
+        <button class="primary-button">Salvar</button>
+      </form>
+    </div>
   </div>
 </body>
 
